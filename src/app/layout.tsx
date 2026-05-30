@@ -11,6 +11,22 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Marsha Dwi Lucyana | Professional Portfolio",
   description: "Official portfolio of Marsha Dwi Lucyana, a Backend Developer and Software Engineering Student specializing in Laravel, Python, and API integration.",
+  openGraph: {
+    title: "Marsha Dwi Lucyana | Professional Portfolio",
+    description: "Software Engineer specializing in Backend Development and AI.",
+    url: "https://marshadwi.vercel.app",
+    siteName: "Marsha Dwi Lucyana Portfolio",
+    images: [
+      {
+        url: "/formal_marsha.png",
+        width: 1200,
+        height: 630,
+        alt: "Marsha Dwi Lucyana",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
